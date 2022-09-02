@@ -1,0 +1,23 @@
+[package]
+name = "stellaris-timer"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tracing = "*"
+tracing-subscriber = "*"
+xcb = "*"
+image = "*"
+leptess = "*"
+regex = "1.6"
+eframe = "*"
+tokio = {version= "1.20", features = ["full"]}
+tap = "1.0"
+rodio = "^0"
+meval = "*"
+home = "*"
+derive_more = "^0"
+serde = { version = "1.0" , features = ["derive"]}
+serde_json = "1.0"
